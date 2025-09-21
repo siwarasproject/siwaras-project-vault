@@ -1,0 +1,38 @@
+{
+  "header": {"title":"Siwaras Blog","image":"h1.png"},
+  "menu":[
+    {"name":"Beranda","target":""},
+    {"name":"Tentang","target":"tentang"},
+    {"name":"Kontak","target":"kontak"},
+    {"name":"Sosial Media","target":"sosmed"}
+  ],
+  "articles":[
+    {
+      "id":"artikel1",
+      "title":"🌹 Cinta Rasulullah ﷺ",
+      "image":"cr2.png",
+      "excerpt":"Mencintai Rasulullah ﷺ adalah bagian dari iman...",
+      "content":"<div style='text-align:center; font-size:1.5rem; margin:1rem 0; animation:pulse 2s infinite;'><span style='background: linear-gradient(90deg, #22c55e, #a3e635, #22c55e); -webkit-background-clip: text; color: transparent; font-weight:bold;'>السلام عليكم</span></div><blockquote>“Tidak sempurna iman salah seorang di antara kalian hingga aku lebih ia cintai daripada dirinya sendiri, orang tuanya, dan seluruh manusia.”<br><em>(HR. Bukhari & Muslim)</em></blockquote><ul><li><em>Selalu bershalawat</em></li><li><strong>Meneladani akhlak</strong></li><li><em>Mencintai sahabat</em></li></ul>"
+    },
+    {
+      "id":"artikel2",
+      "title":"Artikel Dummy Kedua",
+      "image":"hh.png",
+      "excerpt":"Cuplikan artikel dummy kedua...",
+      "content":"<blockquote style='border-left:5px solid #f59e0b; padding-left:1rem;'>Quote penting dari artikel kedua!</blockquote><ul><li>Poin pertama</li><li>Poin kedua</li><li>Poin ketiga</li></ul>"
+    },
+    {
+      "id":"artikel3",
+      "title":"Artikel Dummy Ketiga",
+      "image":"g3.png",
+      "excerpt":"Cuplikan artikel dummy ketiga...",
+      "content":"<p style='font-style:italic; color:#facc15;'>Teks miring dengan warna kuning.</p><div style='animation:spin 3s linear infinite;'>✨ Animasi putar ✨</div>"
+    }
+  ],
+  "sections":[
+    {"id":"tentang","title":"Tentang Kami","content":"<p>Siwaras Project adalah blog sederhana yang dibangun dengan cinta 💚</p>"},
+    {"id":"kontak","title":"Kontak","content":"<p>Email: siwaras@example.com</p>"},
+    {"id":"sosmed","title":"Sosial Media","content":"<p>IG/Twitter: @siwaras</p>"}
+  ],
+  "footer":"© Siwaras Project - Powered by GPT Plus"
+}
