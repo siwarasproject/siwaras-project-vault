@@ -1,38 +1,97 @@
 {
-  "header": {"title":"Siwaras Blog","image":"h1.png"},
-  "menu":[
-    {"name":"Beranda","target":""},
-    {"name":"Tentang","target":"tentang"},
-    {"name":"Kontak","target":"kontak"},
-    {"name":"Sosial Media","target":"sosmed"}
-  ],
-  "articles":[
+  "header": {
+    "title": "Siwaras Blog",
+    "image": "h1.png"
+  },
+  "menu": [
     {
-      "id":"artikel1",
-      "title":"🌹 Cinta Rasulullah ﷺ",
-      "image":"cr2.png",
-      "excerpt":"Mencintai Rasulullah ﷺ adalah bagian dari iman...",
-      "content":"<div style='text-align:center; font-size:1.5rem; margin:1rem 0; animation:pulse 2s infinite;'><span style='background: linear-gradient(90deg, #22c55e, #a3e635, #22c55e); -webkit-background-clip: text; color: transparent; font-weight:bold;'>السلام عليكم</span></div><blockquote>“Tidak sempurna iman salah seorang di antara kalian hingga aku lebih ia cintai daripada dirinya sendiri, orang tuanya, dan seluruh manusia.”<br><em>(HR. Bukhari & Muslim)</em></blockquote><ul><li><em>Selalu bershalawat</em></li><li><strong>Meneladani akhlak</strong></li><li><em>Mencintai sahabat</em></li></ul>"
+      "name": "Beranda",
+      "target": ""
     },
     {
-      "id":"artikel2",
-      "title":"Artikel Dummy Kedua",
-      "image":"hh.png",
-      "excerpt":"Cuplikan artikel dummy kedua...",
-      "content":"<blockquote style='border-left:5px solid #f59e0b; padding-left:1rem;'>Quote penting dari artikel kedua!</blockquote><ul><li>Poin pertama</li><li>Poin kedua</li><li>Poin ketiga</li></ul>"
+      "name": "Tentang",
+      "target": "tentang"
     },
     {
-      "id":"artikel3",
-      "title":"Artikel Dummy Ketiga",
-      "image":"g3.png",
-      "excerpt":"Cuplikan artikel dummy ketiga...",
-      "content":"<p style='font-style:italic; color:#facc15;'>Teks miring dengan warna kuning.</p><div style='animation:spin 3s linear infinite;'>✨ Animasi putar ✨</div>"
+      "name": "Kontak",
+      "target": "kontak"
+    },
+    {
+      "name": "Sosial Media",
+      "target": "sosmed"
+    },
+    {
+      "name": "Daftar Isi Artikel",
+      "target": "daftar-artikel"
     }
   ],
-  "sections":[
-    {"id":"tentang","title":"Tentang Kami","content":"<p>Siwaras Project adalah blog sederhana yang dibangun dengan cinta 💚</p>"},
-    {"id":"kontak","title":"Kontak","content":"<p>Email: siwaras@example.com</p>"},
-    {"id":"sosmed","title":"Sosial Media","content":"<p>IG/Twitter: @siwaras</p>"}
+  "articles": [
+    {
+      "id": "artikel1",
+      "title": "🌹 Cinta Rasulullah ﷺ",
+      "image": "cr2.png",
+      "excerpt": "Mencintai Rasulullah ﷺ adalah bagian dari iman...",
+      "content": "<div style='text-align:center; font-size:1.5rem; margin:1rem 0; animation:pulse 2s infinite;'><span style='background: linear-gradient(90deg, #22c55e, #a3e635, #22c55e); -webkit-background-clip: text; color: transparent; font-weight:bold;'>السلام عليكم</span></div><blockquote>“Tidak sempurna iman salah seorang di antara kalian hingga aku lebih ia cintai daripada dirinya sendiri, orang tuanya, dan seluruh manusia.”<br><em>(HR. Bukhari & Muslim)</em></blockquote>"
+    },
+    {
+      "id": "artikel2",
+      "title": "📖 Daya Magnet Uang",
+      "image": "dmu.png",
+      "excerpt": "Rahasia aplikasi sederhana menjadi magnet keberlimpahan...",
+      "content": "<h2 style='color:#facc15;'>✨ Daya Magnet Uang</h2><p><b>Ebook ini bukan sekadar bacaan, melainkan pengalaman transformasi.</b> Di dalamnya kamu akan diajak menyadari bahwa setiap manusia memiliki <i>daya magnet</i> untuk uang dan keberlimpahan. Bedanya, hanya sedikit orang yang benar-benar memahami cara mengaktifkan dan mengarahkan energi magnet ini secara praktis.</p><p>Ebook <i>Daya Magnet Uang</i> membongkar rahasia: bagaimana pola pikir, bahasa, dan kebiasaan sehari-hari memengaruhi kekuatan tarik rezeki. Disusun <b>simple tapi powerful</b>, materi di dalamnya bisa langsung dipraktekkan tanpa teori berbelit.</p><ul><li>Langkah aplikasi sederhana untuk membuka aliran rezeki.</li><li>Latihan singkat harian agar mindset finansial lebih sehat.</li><li>Strategi premium & eksklusif untuk menarik peluang baru.</li><li>Contoh nyata penerapan agar lebih mudah dipahami.</li></ul><p>Buku ini cocok untuk wirausaha, pekerja kreatif, maupun siapa saja yang ingin rezekinya lebih lancar dengan cara alami.</p><div style='margin-top:1rem; background:linear-gradient(90deg,#7c3aed,#0ea5a4); padding:14px; border-radius:12px; color:white; font-weight:600; text-align:center;'>💎 <a href='http://lynk.id/projectvault/7yn96kdy1212/checkout' style='color:white; text-decoration:none;'>Klik Buy Now</a> mumpung harga promo, rasakan manfaatnya sebelum kembali ke harga normal!</div><!-- Ganti href='#' dengan link pembelian ebook -->"
+    },
+    {
+      "id": "artikel3",
+      "title": "🌙 Keindahan Malam",
+      "image": "hh.png",
+      "excerpt": "Malam adalah waktu yang tepat untuk merenung...",
+      "content": "<p>Malam adalah waktu yang indah untuk merenungkan kehidupan. Di tengah keheningan, kita bisa mendengar bisikan hati.</p><blockquote style='border-left:5px solid #8b5cf6; padding-left:1rem;'>“Dan Kami jadikan malam sebagai penutup.”<br><em>(QS. An-Naba: 10)</em></blockquote><p>Dalam kesunyian malam, banyak ide-ide brilian lahir. Banyak penemuan hebat tercipta saat orang lain sedang tidur.</p>"
+    },
+    {
+      "id": "artikel4",
+      "title": "⚡ Super Smart Prompt Generator",
+      "image": "sspgj.png",
+      "excerpt": "Tools AI premium untuk ide, copywriting, & kreativitas tanpa batas...",
+      "content": "<h2 style='color:#38bdf8;'>⚡ Super Smart Prompt Generator</h2><p><b>Bayangkan punya asisten pribadi yang selalu siap memberi ide, copywriting, dan strategi konten hanya dengan satu klik.</b> Itulah yang ditawarkan oleh <i>Super Smart Prompt Generator</i> — sebuah tools premium yang diciptakan untuk harmonisasi penuh dengan AI.</p><p>Bukan sekadar generator teks, melainkan <b>mesin kreatif</b> yang mampu memahami konteks, menghasilkan prompt yang lebih tajam, serta membantu kamu berkomunikasi dengan AI secara maksimal. Dengan antarmuka elegan dan intuitif, siapa pun bisa langsung produktif tanpa perlu menjadi expert.</p><ul><li>Optimalkan hasil AI dengan prompt yang lebih cerdas.</li><li>Percepat pembuatan konten, ide bisnis, dan copywriting.</li><li>Bangun harmonisasi kreatif antara manusia & kecerdasan buatan.</li><li>Desain eksklusif, mudah digunakan, fleksibel untuk semua kebutuhan.</li></ul><p>Tools ini ibarat <i>generator ide premium</i> yang akan menemani perjalananmu bersama AI — menjadikan proses kerja lebih cepat, akurat, dan menyenangkan.</p><div style='margin-top:1rem; background:linear-gradient(90deg,#0ea5a4,#7c3aed); padding:14px; border-radius:12px; color:white; font-weight:600; text-align:center;'>🚀 <a href='https://lynk.id/projectvault/k5jymr802m77/checkout' style='color:white; text-decoration:none;'>Klik Buy Now</a> untuk segera mengakses Tools Premium ini dan selaraskan kreativitasmu dengan AI!</div><!-- Ganti href='#' dengan link pembelian tools -->"
+    },
+    {
+      "id": "artikel5",
+      "title": "🤝 Harmoni & Sinkronisasi dengan AI",
+      "image": "ai.png",
+      "excerpt": "Kolaborasi manusia dan AI: lebih cepat, presisi, dan produktif...",
+      "content": "<h2 style='color:#14b8a6;'>🤝 Harmoni & Sinkronisasi dengan AI</h2><p>AI bukan pengganti manusia, melainkan <b>partner cerdas</b> yang membantu kita bekerja lebih cepat, presisi, dan produktif. Dengan sinkronisasi yang tepat, manusia dan AI bisa berkolaborasi menghasilkan karya yang sebelumnya mustahil dilakukan dalam waktu singkat.</p><p><b>Bayangkan:</b> ide brilianmu dilipatgandakan dengan kecepatan analisis AI. Kreativitasmu dipertajam, sementara AI memastikan presisi data dan efisiensi. Hasilnya? Karya inovatif yang harmonis, memadukan keunikan manusia dengan kekuatan mesin.</p><ul><li>AI sebagai asisten pribadi sesuai profil & gaya kerja kamu.</li><li>Membantu brainstorming ide tanpa batas.</li><li>Mengubah konsep mentah menjadi strategi matang dengan cepat.</li><li>Menjadi pendorong produktivitas, bukan pengganti manusia.</li></ul><p>Dengan memahami cara berkomunikasi yang benar, AI akan menjadi <i>co-creator</i> terbaikmu. Dialah tangan kanan digital yang membebaskan waktu dan energi untuk fokus pada hal-hal yang benar-benar penting.</p>"
+    },
+    {
+      "id": "artikel6",
+      "title": "🔥 Ebook Seni Persuasi Sejati",
+      "image": "p2.png",
+      "excerpt": "Rahasia komunikasi persuasif yang meledakkan pengaruhmu...",
+      "content": "<h2 style='color:#ef4444;'>🔥 Ebook Seni Persuasi Sejati</h2><p><b>Seni berbicara, menulis, dan memengaruhi bukan sekadar bakat, tapi ilmu.</b> Ebook <i>Seni Persuasi Sejati</i> adalah panduan bombastis yang akan membawamu memahami inti persuasi — bagaimana kata-kata sederhana bisa menggerakkan hati, mengubah pikiran, bahkan membuka pintu peluang.</p><p>Buku ini mengupas rahasia yang dipakai para pemimpin, negosiator, dan influencer besar untuk memengaruhi jutaan orang. Tidak bertele-tele, hanya teknik praktis yang bisa langsung dipraktekkan untuk:</p><ul><li>Meyakinkan tanpa terkesan memaksa.</li><li>Mengubah keberatan menjadi peluang emas.</li><li>Meningkatkan penjualan & hubungan personal.</li><li>Membangun aura karisma dalam setiap komunikasi.</li></ul><p>Ebook ini adalah <b>senjata rahasia</b> untuk siapa saja yang ingin level up dalam komunikasi, bisnis, maupun kehidupan sosial.</p><div style='margin-top:1rem; background:linear-gradient(90deg,#f43f5e,#f59e0b); padding:14px; border-radius:12px; color:white; font-weight:700; text-align:center;'>⚡ <a href='https://lynk.id/projectvault/50dzvymy56kr/checkout' style='color:white; text-decoration:none;'>Klik Buy Now</a> mumpung harga promo! Ambil kesempatan ini sebelum kembali normal.</div><!-- Ganti href='#' dengan link pembelian ebook persuasi -->"
+    },
+    {
+      "id": "artikel7",
+      "title": "💎 Ebook Rahasia Magnet Uang",
+      "image": "g1.png",
+      "excerpt": "Rahasia eksklusif yang tidak diajarkan di sekolah maupun lingkungan...",
+      "content": "<h2 style='color:#a855f7;'>💎 Ebook Rahasia Magnet Uang</h2><p>Ada sebuah rahasia besar tentang uang yang tidak pernah kamu pelajari di sekolah, tidak pernah diajarkan di lingkunganmu, bahkan banyak orang sukses sekalipun memilih menyimpannya rapat-rapat. <b>Rahasia ini akhirnya terbuka untukmu.</b></p><p><i>Rahasia Magnet Uang</i> adalah ebook premium, eksklusif, yang mengungkap prinsip tersembunyi untuk menarik kekayaan dan keberlimpahan. Bukan teori kosong, melainkan langkah-langkah aplikatif yang selama ini hanya dimiliki segelintir orang.</p><ul><li>Mengaktifkan energi finansial yang tertidur dalam dirimu.</li><li>Menarik rezeki dengan cara natural tanpa paksaan.</li><li>Rahasia mindset kaya yang jarang dibuka ke publik.</li><li>Panduan premium dengan nuansa eksklusif.</li></ul><p>Ebook ini bukan hanya bacaan, tapi <b>kunci</b> yang bisa membuka pintu peluang yang selama ini terasa terkunci.</p><div style='margin-top:1rem; background:linear-gradient(90deg,#7c3aed,#0ea5a4); padding:14px; border-radius:12px; color:white; font-weight:700; text-align:center;'>💰 <a href='https://lynk.id/projectvault/261q1gg5me98/checkout' style='color:white; text-decoration:none;'>Klik Buy Now</a> dan rasakan sendiri manfaat rahasia eksklusif ini!</div><!-- Ganti href='#' dengan link pembelian ebook rahasia magnet uang -->"
+    }
   ],
-  "footer":"© Siwaras Project - Powered by GPT Plus"
+  "sections": [
+    {
+      "id": "tentang",
+      "title": "Tentang Kami",
+      "content": "<p>Siwaras Project adalah blog sederhana yang dibangun dengan cinta 💚</p><p>Kami berkomitmen untuk menyajikan konten yang bermanfaat dan menginspirasi bagi pembaca kami.</p>"
+    },
+    {
+      "id": "kontak",
+      "title": "Kontak",
+      "content": "<p>Email: siwarasproject@gmail.com</p><p>Tiktok @siwarasproject</p><p>Indonesia</p>"
+    },
+    {
+      "id": "sosmed",
+      "title": "Sosial Media",
+      "content": "<p>Kami hadir di berbagai platform media sosial !</p><div>   <a href=\"https://whatsapp.com/channel/0029VbAu4uFDTkK8ifbqMU1t\" target=\"_blank\" style=\"margin:0 5px;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg\" alt=\"WA Channel\" width=\"27\"></a>   <a href=\"https://www.facebook.com/share/15xqmoCNqg/\" target=\"_blank\" style=\"margin:0 5px;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png\" alt=\"Facebook\" width=\"22\"></a>   <a href=\"https://www.tiktok.com/@siwaras_project\" target=\"_blank\" style=\"margin:0 5px;\"><img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7Z9C59KpGUyq38knonuuthWsmo25Qo3xvi7-gW5u96KJHnT5uE6TkW8Qep0tU1CpSXD5PSSzGvJJSMVnf-n7YJZYQUxxgz2wGK25nvPQPYyDjWNzK0oHA6LXM7jVyIZbxe6T6lB8SzhuIvOGOu7mBXQDa51vBXt5cbAIVfzHt5H50kk2xIdc8Q_wUxk00/w188-h200/tiktok.icon.png\" alt=\"TikTok\" width=\"21\"></a>   <a href=\"https://youtube.com/@siwarasproject?si=HYsnuP0bytiEMMey\" target=\"_blank\" style=\"margin:0 5px; display:inline-block;\"><img class=\"goyang\" src=\"https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png\" alt=\"YouTube\" width=\"30\"></a>   <a href=\"https://www.instagram.com/siwaras_project\" target=\"_blank\" style=\"margin:0 5px; display:inline-block;\"><img class=\"goyang\" src=\"https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg\" alt=\"Instagram\" width=\"25\"></a>   <a href=\"https://www.threads.com/@siwaras_project\" target=\"_blank\" style=\"margin:0 5px;\"><img src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLVtwT6xYM81-H0VZ01l-0AAKPFt9OJ6fFUywjs6Xx0IW0jr5yinU_6xgcgOKKm5wvXL3YNbbzCaO7Z3DIT9nak-Mx_oFfFAza_Xty_YXAw1mvXlMtmDUZZ31-fYF956mhNv9q908PnVz9AE3HziFjbOeV8uaHeDDUXb_k6aJTz-9I94hpe3_dDQfCNvwC/w200-h181/Threads.icon.png\" alt=\"Threads\" width=\"25\"></a>   <a href=\"https://wa.me/qr/SDCRSEJL3WYQN1\" target=\"_blank\" style=\"margin:0 5px;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg\" alt=\"WhatsApp\" width=\"27\"></a>   <a href=\"https://t.me/kodejiwajalurcahayabot\" target=\"_blank\" style=\"margin:0 5px;\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg\" alt=\"Telegram Bot\" width=\"23\"></a></div><style> a, a img {outline:none; border:none; text-decoration:none;} a:focus, a:active {outline:none;} .goyang {display:inline-block; animation:goyang 1s infinite alternate;} @keyframes goyang {0%{transform:rotate(-5deg) scale(1);} 25%{transform:rotate(5deg) scale(1.05);} 50%{transform:rotate(-5deg) scale(1.1);} 75%{transform:rotate(5deg) scale(1.05);} 100%{transform:rotate(0deg) scale(1);}} </style>"
+    }
+  ],
+  "footer": "© Siwaras Project - Powered by GPT Plus"
 }
