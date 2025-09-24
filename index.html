@@ -1,22 +1,88 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Siwaras Blog</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siwaras Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header -->
+    <header class="header">
+        <h1 id="header-title">Siwaras Blog</h1>
+        <div class="header-image-container">
+            <img id="header-image" src="h1.png" alt="Siwaras Blog Header" class="header-image">
+        </div>
+    </header>
 
-<header>
-  <div class="menu-btn" onclick="openNav()">☰</div>
-  <div id="header-container"></div>
-</header>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <button class="menu-toggle">☰ Menu</button>
+        <div class="menu">
+            <a href="#" class="menu-item active" data-target="home">Beranda</a>
+            <a href="#" class="menu-item" data-target="tentang">Tentang</a>
+            <a href="#" class="menu-item" data-target="kontak">Kontak</a>
+            <a href="#" class="menu-item" data-target="sosmed">Sosial Media</a>
+            <a href="#" class="menu-item" data-target="daftar-artikel">Daftar Isi Artikel</a>
+        </div>
+    </nav>
 
-<div id="sidebar" class="sidebar"></div>
-<main id="main-content"></main>
-<footer id="footer"></footer>
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Home Section (Articles) -->
+        <section id="home" class="content-section active">
+            <div class="articles-grid" id="articles-container">
+                <!-- Articles will be dynamically loaded here -->
+            </div>
+        </section>
 
-<script src="script.js"></script>
+        <!-- About Section -->
+        <section id="tentang" class="content-section">
+            <div class="section-content" id="tentang-content">
+                <!-- Content will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="kontak" class="content-section">
+            <div class="section-content" id="kontak-content">
+                <!-- Content will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section id="sosmed" class="content-section">
+            <div class="section-content" id="sosmed-content">
+                <!-- Content will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- Article List Section -->
+        <section id="daftar-artikel" class="content-section">
+            <div class="section-content">
+                <h2>Daftar Isi Artikel</h2>
+                <div class="article-list" id="article-list-container">
+                    <!-- Article list will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Article Detail Section -->
+        <section id="article-detail" class="content-section">
+            <div class="article-detail" id="article-detail-content">
+                <!-- Article detail will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top">↑</button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© Siwaras Project - Powered by GPT Plus</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
